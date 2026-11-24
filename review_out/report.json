@@ -1,0 +1,672 @@
+{
+  "as_of": "2026-11-24",
+  "config": {
+    "renewal_min_effect_pp": 4.0,
+    "min_bridge_uncertainty_pp": 1.0,
+    "rain_tolerance_mm": 10.0
+  },
+  "supplementary_batch": [
+    {
+      "observation_id": "O-2-2024",
+      "ground_id": "G-02",
+      "year": 2024,
+      "method": "样方乙",
+      "value": 49.0,
+      "received_at": "2026-02-15"
+    },
+    {
+      "observation_id": "O-3-2024",
+      "ground_id": "G-03",
+      "year": 2024,
+      "method": "样方乙",
+      "value": 45.0,
+      "received_at": "2026-02-15"
+    },
+    {
+      "observation_id": "O-3-bridge",
+      "ground_id": "G-03",
+      "year": 2024,
+      "method": "样方甲",
+      "value": 42.0,
+      "received_at": "2026-02-15"
+    }
+  ],
+  "common_ground": {
+    "total_area_once": 168.3,
+    "total_area_reported": 170.3,
+    "overlap_area": 2.0,
+    "shared_grounds": [
+      "G-02"
+    ]
+  },
+  "effects": {
+    "direct": [
+      {
+        "measure": "封育",
+        "terrain": "坡腹",
+        "ground_id": "G-01",
+        "window": [
+          2022,
+          2025
+        ],
+        "change": 16.0,
+        "reference_change": 4.0,
+        "effect": 12.0,
+        "uncertainty": 0.0,
+        "references": [
+          "G-06"
+        ],
+        "same_gully_reference": false,
+        "evidence_ids": [
+          "O-1-2022",
+          "O-1-2025",
+          "O-6-2022",
+          "O-6-2025"
+        ]
+      },
+      {
+        "measure": "封育加补植",
+        "terrain": "坡腹",
+        "ground_id": "G-03",
+        "window": [
+          2023,
+          2025
+        ],
+        "change": 2.0,
+        "reference_change": -1.0,
+        "effect": 3.0,
+        "uncertainty": 1.0,
+        "references": [
+          "G-06"
+        ],
+        "same_gully_reference": false,
+        "evidence_ids": [
+          "O-3-2023",
+          "O-3-2025",
+          "O-3-2024",
+          "O-3-bridge",
+          "O-6-2023",
+          "O-6-2025"
+        ]
+      },
+      {
+        "measure": "封育",
+        "terrain": "缓坡",
+        "ground_id": "G-04",
+        "window": [
+          2024,
+          2025
+        ],
+        "change": 7.0,
+        "reference_change": 3.0,
+        "effect": 4.0,
+        "uncertainty": 0.0,
+        "references": [
+          "G-07",
+          "G-09"
+        ],
+        "same_gully_reference": false,
+        "evidence_ids": [
+          "O-4-2024",
+          "O-4-2025",
+          "O-7-2024",
+          "O-7-2025",
+          "O-9-2024",
+          "O-9-2025"
+        ]
+      },
+      {
+        "measure": "封育加补植",
+        "terrain": "坡腹",
+        "ground_id": "G-08",
+        "window": [
+          2023,
+          2025
+        ],
+        "change": 9.0,
+        "reference_change": -1.0,
+        "effect": 10.0,
+        "uncertainty": 0.0,
+        "references": [
+          "G-06"
+        ],
+        "same_gully_reference": true,
+        "evidence_ids": [
+          "O-8-2023",
+          "O-8-2025",
+          "O-6-2023",
+          "O-6-2025"
+        ]
+      },
+      {
+        "measure": "封育加补植",
+        "terrain": "缓坡",
+        "ground_id": "G-10",
+        "window": [
+          2024,
+          2025
+        ],
+        "change": 7.0,
+        "reference_change": 3.0,
+        "effect": 4.0,
+        "uncertainty": 0.0,
+        "references": [
+          "G-07",
+          "G-09"
+        ],
+        "same_gully_reference": true,
+        "evidence_ids": [
+          "O-10-2024",
+          "O-10-2025",
+          "O-7-2024",
+          "O-7-2025",
+          "O-9-2024",
+          "O-9-2025"
+        ]
+      },
+      {
+        "measure": "封育",
+        "terrain": "坡腹",
+        "ground_id": "G-11",
+        "window": [
+          2023,
+          2025
+        ],
+        "change": 9.0,
+        "reference_change": -1.0,
+        "effect": 10.0,
+        "uncertainty": 0.0,
+        "references": [
+          "G-06"
+        ],
+        "same_gully_reference": false,
+        "evidence_ids": [
+          "O-11-2023",
+          "O-11-2025",
+          "O-6-2023",
+          "O-6-2025"
+        ]
+      }
+    ],
+    "neighbor": [
+      {
+        "ground_id": "G-02",
+        "plot_id": "P-02",
+        "measure": "封育加补植",
+        "terrain": "坡脚",
+        "window": [
+          2023,
+          2025
+        ],
+        "first_affected": 2023,
+        "affected_before_direct": true,
+        "change": null,
+        "note": "受影响（2023年）早于现归属项目开工（2024年）；自身趋势不可连接：样方甲→样方乙测量切换无同期重测桥接"
+      },
+      {
+        "ground_id": "G-05",
+        "plot_id": "P-04",
+        "measure": "封育",
+        "terrain": "缓坡",
+        "window": [
+          2021,
+          2025
+        ],
+        "first_affected": 2022,
+        "affected_before_direct": false,
+        "change": 22.0,
+        "note": "窗口内受邻地影响"
+      }
+    ],
+    "deferred": [],
+    "terrain_notes": [
+      "坡脚：无未治理对照，坡脚范围的相对成效暂不判定"
+    ]
+  },
+  "sensitivity": {
+    "attribution": [
+      {
+        "ground_id": "G-02",
+        "terrain": "坡脚",
+        "scenario": "误作直接证据",
+        "detail": "同地貌无封育加补植直接实施估计可并列",
+        "swings": []
+      },
+      {
+        "ground_id": "G-02",
+        "terrain": "坡脚",
+        "scenario": "误作未治理参照",
+        "detail": "当前无坡脚处理估计可配对；一旦建立配对，结论将受其主导",
+        "swings": []
+      },
+      {
+        "ground_id": "G-05",
+        "terrain": "缓坡",
+        "scenario": "误作直接证据",
+        "detail": "按 2024–2025 窗口：自身变化 +8.0pp，相对参照 +5.0pp",
+        "swings": [
+          "封育·缓坡 直接证据池 [+4.0] 将并入 +5.0pp（虚高）"
+        ]
+      },
+      {
+        "ground_id": "G-05",
+        "terrain": "缓坡",
+        "scenario": "误作未治理参照",
+        "detail": "G-05 进入参照池后重算：",
+        "swings": [
+          "封育·缓坡（G-04）：+4.0 → +2.3pp（跌破续建阈值）",
+          "封育加补植·缓坡（G-10）：+4.0 → +2.3pp（跌破续建阈值）"
+        ]
+      }
+    ],
+    "rain": [
+      {
+        "label": "封育·坡腹（G-01）",
+        "treated_zone": "D-1",
+        "reference_zones": [
+          "D-3"
+        ],
+        "rain_delta_treated": -42.0,
+        "rain_delta_reference": -42.0,
+        "level": "低"
+      },
+      {
+        "label": "封育加补植·坡腹（G-03）",
+        "treated_zone": "D-1",
+        "reference_zones": [
+          "D-3"
+        ],
+        "rain_delta_treated": -63.0,
+        "rain_delta_reference": -63.0,
+        "level": "低"
+      },
+      {
+        "label": "封育·缓坡（G-04）",
+        "treated_zone": "D-2",
+        "reference_zones": [
+          "D-4",
+          "D-5"
+        ],
+        "rain_delta_treated": -84.0,
+        "rain_delta_reference": -84.0,
+        "level": "低"
+      },
+      {
+        "label": "封育加补植·坡腹（G-08）",
+        "treated_zone": "D-3",
+        "reference_zones": [
+          "D-3"
+        ],
+        "rain_delta_treated": -63.0,
+        "rain_delta_reference": -63.0,
+        "level": "低"
+      },
+      {
+        "label": "封育加补植·缓坡（G-10）",
+        "treated_zone": "D-5",
+        "reference_zones": [
+          "D-4",
+          "D-5"
+        ],
+        "rain_delta_treated": -84.0,
+        "rain_delta_reference": -84.0,
+        "level": "低"
+      },
+      {
+        "label": "封育·坡腹（G-11）",
+        "treated_zone": "D-6",
+        "reference_zones": [
+          "D-3"
+        ],
+        "rain_delta_treated": -63.0,
+        "rain_delta_reference": -63.0,
+        "level": "低"
+      }
+    ],
+    "bridge_notes": [
+      "G-03：桥接换算不确定度 ±1.0pp，相对成效 +3.0pp"
+    ]
+  },
+  "reviews": [
+    {
+      "review_id": "R-01",
+      "plot_id": "P-01",
+      "status": "复核中",
+      "window": [
+        2022,
+        2025
+      ],
+      "min_effect_pp": 5.0,
+      "verdict": "暂不签出（待补证）",
+      "supplements": [
+        "G-02：按邻地影响范围单列，补同地貌对照后再议",
+        "G-02：补 2022–2025 同期重测桥接"
+      ],
+      "classification": null,
+      "notes": [],
+      "grounds": [
+        {
+          "ground_id": "G-01",
+          "terrain": "坡腹",
+          "attribution": "直接实施",
+          "boundary_note": "",
+          "change": 16.0,
+          "effect": 12.0,
+          "verdict": "达标",
+          "reasons": [],
+          "evidence_ids": [
+            "O-1-2022",
+            "O-1-2025",
+            "O-6-2022",
+            "O-6-2025"
+          ]
+        },
+        {
+          "ground_id": "G-02",
+          "terrain": "坡脚",
+          "attribution": "邻地影响",
+          "boundary_note": "G-02 在 2025 年已不属 P-01 现行边界版本",
+          "change": null,
+          "effect": null,
+          "verdict": "排除",
+          "reasons": [
+            "窗口内已受邻地影响（2023年起），不能作为直接实施证据",
+            "自身趋势亦不可连接：样方甲→样方乙测量切换无同期重测桥接",
+            "G-02 在 2025 年已不属 P-01 现行边界版本"
+          ],
+          "evidence_ids": []
+        }
+      ],
+      "snapshot": null
+    },
+    {
+      "review_id": "R-02",
+      "plot_id": "P-02",
+      "status": "待补测",
+      "window": [
+        2023,
+        2025
+      ],
+      "min_effect_pp": 4.0,
+      "verdict": "暂不签出（待补证）",
+      "supplements": [
+        "G-02：按邻地影响范围单列，补同地貌对照后再议",
+        "G-02：补 2023–2025 同期重测桥接",
+        "G-03：补测加密桥接，降低换算不确定度"
+      ],
+      "classification": null,
+      "notes": [],
+      "grounds": [
+        {
+          "ground_id": "G-02",
+          "terrain": "坡脚",
+          "attribution": "邻地影响",
+          "boundary_note": "",
+          "change": null,
+          "effect": null,
+          "verdict": "排除",
+          "reasons": [
+            "窗口内已受邻地影响（2023年起），不能作为直接实施证据",
+            "自身趋势亦不可连接：样方甲→样方乙测量切换无同期重测桥接"
+          ],
+          "evidence_ids": []
+        },
+        {
+          "ground_id": "G-03",
+          "terrain": "坡腹",
+          "attribution": "直接实施",
+          "boundary_note": "",
+          "change": 2.0,
+          "effect": 3.0,
+          "verdict": "暂不判定",
+          "reasons": [
+            "换算不确定度 ±1.0pp 使相对成效 +3.0pp 触及合同阈值 4.0pp"
+          ],
+          "evidence_ids": [
+            "O-3-2023",
+            "O-3-2025",
+            "O-3-2024",
+            "O-3-bridge",
+            "O-6-2023",
+            "O-6-2025"
+          ]
+        }
+      ],
+      "snapshot": null
+    },
+    {
+      "review_id": "R-03",
+      "plot_id": "P-04",
+      "status": "已验收",
+      "window": [
+        2021,
+        2024
+      ],
+      "min_effect_pp": 3.0,
+      "verdict": "可签认",
+      "supplements": [],
+      "classification": "维持但需人工复议",
+      "notes": [
+        "G-05 现列为邻地影响范围"
+      ],
+      "grounds": [
+        {
+          "ground_id": "G-05",
+          "terrain": "缓坡",
+          "attribution": "邻地影响",
+          "boundary_note": "",
+          "change": 14.0,
+          "effect": null,
+          "verdict": "排除",
+          "reasons": [
+            "窗口内已受邻地影响（2022年起），不能作为直接实施证据"
+          ],
+          "evidence_ids": [
+            "O-5-2021",
+            "O-5-2024"
+          ]
+        }
+      ],
+      "snapshot": {
+        "data_version": "2025-01-10",
+        "verdict": "可签认",
+        "ground_effects": [
+          [
+            "G-05",
+            15.5
+          ]
+        ],
+        "evidence_ids": [
+          "O-5-2021",
+          "O-5-2024",
+          "O-4-2021",
+          "O-4-2024",
+          "O-7-2021",
+          "O-7-2024",
+          "O-9-2021",
+          "O-9-2024",
+          "O-10-2021",
+          "O-10-2024",
+          "O-10-bridge"
+        ]
+      }
+    }
+  ],
+  "renewals": {
+    "applicability": [
+      {
+        "candidate_id": "N-01",
+        "measure": "封育",
+        "terrain": "缓坡",
+        "status": "边界适用",
+        "best_effect": 4.0,
+        "evidence": [
+          "G-04"
+        ],
+        "notes": [
+          "证据有限（接近阈值或单一坡沟 / 单一窗口），按边界适用处理"
+        ]
+      },
+      {
+        "candidate_id": "N-02",
+        "measure": "封育加补植",
+        "terrain": "缓坡",
+        "status": "边界适用",
+        "best_effect": 4.0,
+        "evidence": [
+          "G-10"
+        ],
+        "notes": [
+          "G-09 现为未治理对照（供 G-04、G-10 估计），实施后需补对照",
+          "证据有限（接近阈值或单一坡沟 / 单一窗口），按边界适用处理"
+        ]
+      },
+      {
+        "candidate_id": "N-03",
+        "measure": "封育",
+        "terrain": "坡腹",
+        "status": "适用",
+        "best_effect": 12.0,
+        "evidence": [
+          "G-01",
+          "G-11"
+        ],
+        "notes": [
+          "G-06 现为未治理对照（供 G-01、G-03、G-08、G-11 估计），实施后需补对照"
+        ]
+      },
+      {
+        "candidate_id": "N-04",
+        "measure": "封育",
+        "terrain": "缓坡",
+        "status": "边界适用",
+        "best_effect": 4.0,
+        "evidence": [
+          "G-04"
+        ],
+        "notes": [
+          "G-09 现为未治理对照（供 G-04、G-10 估计），实施后需补对照",
+          "证据有限（接近阈值或单一坡沟 / 单一窗口），按边界适用处理"
+        ]
+      },
+      {
+        "candidate_id": "N-05",
+        "measure": "封育加补植",
+        "terrain": "坡腹",
+        "status": "适用",
+        "best_effect": 10.0,
+        "evidence": [
+          "G-03",
+          "G-08"
+        ],
+        "notes": []
+      }
+    ],
+    "windows": [
+      {
+        "window": "2026春",
+        "capacity_days": 11.0,
+        "capacity_yuan": 88000.0,
+        "occupied": [
+          "N-01"
+        ],
+        "remaining_days": 7.0,
+        "remaining_yuan": 55000.0,
+        "signed": [
+          "N-03"
+        ],
+        "feasible": [
+          [
+            "N-03"
+          ]
+        ],
+        "blocked": [
+          [
+            "N-02",
+            "前置工程 N-04 未先完成（其窗口 2026秋）；超出窗口剩余容量"
+          ]
+        ]
+      },
+      {
+        "window": "2026秋",
+        "capacity_days": 9.0,
+        "capacity_yuan": 75000.0,
+        "occupied": [],
+        "remaining_days": 9.0,
+        "remaining_yuan": 75000.0,
+        "signed": [
+          "N-05"
+        ],
+        "feasible": [
+          [
+            "N-04"
+          ],
+          [
+            "N-05"
+          ]
+        ],
+        "blocked": [
+          [
+            "N-04",
+            "与 N-05 同窗竞争容量，证据排序靠后（自身最佳 +4.0pp）"
+          ]
+        ]
+      }
+    ],
+    "unsignable": [
+      [
+        "N-02",
+        "前置工程 N-04 未先完成（其窗口 2026秋）；超出窗口剩余容量"
+      ],
+      [
+        "N-04",
+        "与 N-05 同窗竞争容量，证据排序靠后（自身最佳 +4.0pp）"
+      ]
+    ],
+    "deadlock": false
+  },
+  "impact": {
+    "需补证合同": [
+      [
+        "R-01",
+        [
+          "G-02：按邻地影响范围单列，补同地貌对照后再议",
+          "G-02：补 2022–2025 同期重测桥接"
+        ]
+      ],
+      [
+        "R-02",
+        [
+          "G-02：按邻地影响范围单列，补同地貌对照后再议",
+          "G-02：补 2023–2025 同期重测桥接",
+          "G-03：补测加密桥接，降低换算不确定度"
+        ]
+      ]
+    ],
+    "现可排续建组合": [
+      [
+        "2026春",
+        [
+          "N-03"
+        ]
+      ],
+      [
+        "2026秋",
+        [
+          "N-05"
+        ]
+      ]
+    ],
+    "已验收维持但需人工复议": [
+      "R-03"
+    ],
+    "改判风险需人工复议": []
+  },
+  "unsignable": [
+    "合同 R-01（P-01）：暂不签出（待补证）",
+    "合同 R-02（P-02）：暂不签出（待补证）",
+    "续建 N-02：前置工程 N-04 未先完成（其窗口 2026秋）；超出窗口剩余容量",
+    "续建 N-04：与 N-05 同窗竞争容量，证据排序靠后（自身最佳 +4.0pp）",
+    "成效判定：坡脚：无未治理对照，坡脚范围的相对成效暂不判定"
+  ]
+}
