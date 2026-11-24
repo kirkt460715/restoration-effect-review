@@ -1,4 +1,4 @@
-review_id,plot_id,period,contract_indicator,status
-R-01,P-01,2025,地表覆盖,复核中
-R-02,P-02,2025,土壤有机质,待补测
-R-03,P-04,2024,地表覆盖,已验收
+review_id,plot_id,period,contract_indicator,status,ground_ids,baseline_year,outcome_year,min_effect_pp,evidence_cutoff
+R-01,P-01,2025,地表覆盖,复核中,G-01|G-02,2022,2025,5,
+R-02,P-02,2025,地表覆盖,待补测,G-02|G-03,2023,2025,4,
+R-03,P-04,2024,地表覆盖,已验收,G-05,2021,2024,3,2025-01-10
