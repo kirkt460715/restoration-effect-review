@@ -1,0 +1,5 @@
+plot_id,county,area_ha,measure,start_year,neighbor_exposure,boundary_version
+P-01,东山,18.4,封育,2023,0,1
+P-02,东山,22.1,补植,2024,1,1
+P-03,平川,13.7,植被恢复,2025,0,2
+P-04,平川,19.2,封育,2022,1,2

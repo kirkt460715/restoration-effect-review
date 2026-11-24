@@ -1,0 +1,5 @@
+observation_id,plot_id,year,indicator,value,method,sample_coverage
+O-01,P-01,2023,地表覆盖,42,样方甲,0.84
+O-02,P-01,2025,地表覆盖,57,样方甲,0.79
+O-03,P-02,2024,土壤有机质,13.2,样方乙,0.62
+O-04,P-03,2025,地表覆盖,49,样方丙,0.91

@@ -1,0 +1,9 @@
+{
+  "description": "晋中生态修复年度复核的本地合成演练资料",
+  "sources": {
+    "plots.csv": ["plot_id", "county", "area_ha", "measure", "start_year", "neighbor_exposure", "boundary_version"],
+    "observations.csv": ["observation_id", "plot_id", "year", "indicator", "value", "method", "sample_coverage"],
+    "weather.csv": ["zone", "year", "rain_mm", "dry_days"],
+    "reviews.csv": ["review_id", "plot_id", "period", "contract_indicator", "status"]
+  }
+}
